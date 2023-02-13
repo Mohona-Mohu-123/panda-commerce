@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Panda Commerce</title>
   <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <!-- custom css -->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -24,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ">
             <li class="nav-item ">
-              <a class="nav-link " aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#shoes">Shoes</a>
@@ -43,7 +44,7 @@
     <section class="mt-5">
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
-          <div class="carousel-item active border rounded bg-info p-5">
+          <div class="carousel-item active border rounded panda-bg-info p-5">
             <div class="row">
               <div class="col-lg-7 d-flex align-items-center">
                 <div>
@@ -51,7 +52,7 @@
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias odio distinctio voluptate nihil,
                     omnis quia!</p>
                   <h1>$420</h1>
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div class="btn panda-btn">Buy Now</div>
                 </div>
               </div>
               <div class="col-lg-5">
@@ -59,7 +60,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item border rounded bg-info p-5">
+          <div class="carousel-item border rounded panda-bg-info p-5">
             <div class="row">
               <div class="col-lg-7 d-flex align-items-center">
                 <div>
@@ -67,7 +68,7 @@
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias odio distinctio voluptate nihil,
                     omnis quia!</p>
                   <h1>$1200</h1>
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div class="btn panda-btn">Buy Now</div>
                 </div>
               </div>
               <div class="col-lg-5">
@@ -75,7 +76,7 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item border rounded bg-info p-5">
+          <div class="carousel-item border rounded panda-bg-info p-5">
             <div class="row">
               <div class="col-lg-7 d-flex align-items-center">
                 <div>
@@ -83,7 +84,7 @@
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias odio distinctio voluptate nihil,
                     omnis quia!</p>
                   <h1>$600</h1>
-                  <div class="btn btn-warning">Buy Now</div>
+                  <div class="btn panda-btn">Buy Now</div>
                 </div>
               </div>
               <div class="col-lg-5">
@@ -110,7 +111,7 @@
     <h2>Categories</h2>
     <div class="container text-center">
      
-      <div class="row g-3">
+      <div class="row g-3 categories">
         <!-- categories-1 -->
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="p-3 bg-warning border rounded-3 d-flex align-items-center justify-content-around">
@@ -148,7 +149,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="m-3">
-            <div class="btn btn-warning">Buy Now</div>
+            <div class="btn  panda-btn">Buy Now</div>
           </div>
         </div>
       </div>
@@ -160,7 +161,7 @@
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
           <div class="m-3">
-            <div class="btn btn-warning">Buy Now</div>
+            <div class="btn  panda-btn">Buy Now</div>
           </div>
         </div>
       </div>
@@ -172,7 +173,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           </div>
           <div class="m-3">
-            <div class="btn btn-warning">Buy Now</div>
+            <div class="btn panda-btn">Buy Now</div>
           </div>
         </div>
       </div>
@@ -192,7 +193,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="m-3">
-            <div class="btn btn-warning">Buy Now</div>
+            <div class="btn  panda-btn">Buy Now</div>
           </div>
         </div>
       </div>
@@ -205,7 +206,7 @@
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
           <div class="m-3">
-            <div class="btn btn-warning">Buy Now</div>
+            <div class="btn  panda-btn">Buy Now</div>
           </div>
         </div>
       </div>
@@ -218,7 +219,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           </div>
           <div class="m-3">
-            <div class="btn btn-warning">Buy Now</div>
+            <div class="btn  panda-btn">Buy Now</div>
           </div>
         </div>
       </div>
@@ -226,7 +227,7 @@
   </section>
   <!-- backpack section end -->
   <!-- subscribe section -->
-  <section style="height: 270px;" class="container mt-5 bg-info rounded-3 d-flex justify-content-center align-items-center" id="subscribe">
+  <section style="height: 270px;" class="container mt-5 panda-bg-info rounded-3 d-flex justify-content-center align-items-center" id="subscribe">
     <div>
       <h3>LET'S STAY IN TOUCH</h3>
       <p>Get updates on sales specials and more</p>
@@ -234,7 +235,7 @@
         <div class="mb-1">
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
-        <button type="submit" class="btn btn-warning">Submit</button>
+        <button type="submit" class="btn  panda-btn">Submit</button>
       </form>
     </div>
   </section>

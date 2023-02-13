@@ -2,3 +2,16 @@
     color: black;
     font-size: 20px;
 }
+.panda-bg-info{
+    background-color: rgb(240, 194, 217);
+}
+.categories img{
+    width: 100px;
+}
+.panda-btn{
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    color: #ffff;
+    background-image: linear-gradient(to bottom, #ff589B 0%, #ff136f 100%);
+}
